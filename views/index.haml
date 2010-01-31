@@ -1,0 +1,12 @@
+!!!
+%html
+  %body
+    %h1 instant moog cookbook
+    %form{:action => '/search', :method => 'get'}
+      %label
+        Artist
+        %input{:type => 'text', :name => 'artist'}
+      %label
+        Title
+        %input{:type => 'text', :name => 'title'}
+      %input{:type => 'submit', :value => 'Search'}

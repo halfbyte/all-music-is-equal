@@ -1,0 +1,20 @@
+!!!
+%html
+  %body
+    %h1 instant moog cookbook
+    %h2
+      Search for
+      &= params[:artist]
+      and
+      &= params[:title]
+    - if @matches
+      %ul
+        - @matches.each do |result|
+          %li
+            %a{:href => "/cookbookize/#{result['trackID']}"}
+              &= result['artist']
+              \/
+              &= result['title']
+    - else
+      %p
+        No matches found.

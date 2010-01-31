@@ -1,0 +1,105 @@
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `join': Interrupt
+	from /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+	from /Library/Ruby/Gems/1.8/gems/rack-1.0.1/bin/rackup:176
+	from /usr/bin/rackup:19:in `load'
+	from /usr/bin/rackup:19
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `join': Interrupt
+	from /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+	from /Library/Ruby/Gems/1.8/gems/rack-1.0.1/bin/rackup:176
+	from /usr/bin/rackup:19:in `load'
+	from /usr/bin/rackup:19
+127.0.0.1 - - [31/Jan/2010 12:06:52] "GET / HTTP/1.1" 404 409 0.0027
+127.0.0.1 - - [31/Jan/2010 12:06:52] "GET / HTTP/1.1" 404 409 0.0205
+127.0.0.1 - - [31/Jan/2010 12:06:52] "GET /__sinatra__/404.png HTTP/1.1" 200 23305 0.0205
+127.0.0.1 - - [31/Jan/2010 12:06:52] "GET /__sinatra__/404.png HTTP/1.1" 200 23305 0.0215
+127.0.0.1 - - [31/Jan/2010 12:06:52] "GET /favicon.ico HTTP/1.1" 404 420 0.0010
+127.0.0.1 - - [31/Jan/2010 12:06:52] "GET /favicon.ico HTTP/1.1" 404 420 0.0018
+127.0.0.1 - - [31/Jan/2010 12:06:54] "GET / HTTP/1.1" 404 409 0.0011
+127.0.0.1 - - [31/Jan/2010 12:06:54] "GET / HTTP/1.1" 404 409 0.0021
+127.0.0.1 - - [31/Jan/2010 12:06:54] "GET /__sinatra__/404.png HTTP/1.1" 304 - 0.0007
+127.0.0.1 - - [31/Jan/2010 12:06:54] "GET /__sinatra__/404.png HTTP/1.1" 304 - 0.0014
+127.0.0.1 - - [31/Jan/2010 12:06:54] "GET /favicon.ico HTTP/1.1" 404 420 0.0010
+127.0.0.1 - - [31/Jan/2010 12:06:54] "GET /favicon.ico HTTP/1.1" 404 420 0.0017
+127.0.0.1 - - [31/Jan/2010 12:06:55] "GET / HTTP/1.1" 404 409 0.0013
+127.0.0.1 - - [31/Jan/2010 12:06:55] "GET / HTTP/1.1" 404 409 0.0020
+127.0.0.1 - - [31/Jan/2010 12:06:55] "GET /__sinatra__/404.png HTTP/1.1" 304 - 0.0007
+127.0.0.1 - - [31/Jan/2010 12:06:55] "GET /__sinatra__/404.png HTTP/1.1" 304 - 0.0015
+127.0.0.1 - - [31/Jan/2010 12:06:55] "GET /favicon.ico HTTP/1.1" 404 420 0.0028
+127.0.0.1 - - [31/Jan/2010 12:06:55] "GET /favicon.ico HTTP/1.1" 404 420 0.0036
+127.0.0.1 - - [31/Jan/2010 12:06:55] "GET / HTTP/1.1" 404 409 0.0012
+127.0.0.1 - - [31/Jan/2010 12:06:55] "GET / HTTP/1.1" 404 409 0.0025
+127.0.0.1 - - [31/Jan/2010 12:06:55] "GET /__sinatra__/404.png HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [31/Jan/2010 12:06:55] "GET /__sinatra__/404.png HTTP/1.1" 304 - 0.0018
+127.0.0.1 - - [31/Jan/2010 12:06:55] "GET /favicon.ico HTTP/1.1" 404 420 0.0014
+127.0.0.1 - - [31/Jan/2010 12:06:55] "GET /favicon.ico HTTP/1.1" 404 420 0.0021
+127.0.0.1 - - [31/Jan/2010 12:07:17] "GET / HTTP/1.1" 404 409 0.0015
+127.0.0.1 - - [31/Jan/2010 12:07:17] "GET / HTTP/1.1" 404 409 0.0026
+127.0.0.1 - - [31/Jan/2010 12:07:17] "GET /__sinatra__/404.png HTTP/1.1" 304 - 0.0007
+127.0.0.1 - - [31/Jan/2010 12:07:17] "GET /__sinatra__/404.png HTTP/1.1" 304 - 0.0015
+127.0.0.1 - - [31/Jan/2010 12:07:17] "GET /favicon.ico HTTP/1.1" 404 420 0.0009
+127.0.0.1 - - [31/Jan/2010 12:07:17] "GET /favicon.ico HTTP/1.1" 404 420 0.0016
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `join': Interrupt
+	from /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+	from /Library/Ruby/Gems/1.8/gems/rack-1.0.1/bin/rackup:176
+	from /usr/bin/rackup:19:in `load'
+	from /usr/bin/rackup:19
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `join': Interrupt
+	from /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+	from /Library/Ruby/Gems/1.8/gems/rack-1.0.1/bin/rackup:176
+	from /usr/bin/rackup:19:in `load'
+	from /usr/bin/rackup:19
+127.0.0.1 - - [31/Jan/2010 12:07:23] "GET / HTTP/1.1" 200 463 0.0116
+127.0.0.1 - - [31/Jan/2010 12:07:23] "GET / HTTP/1.1" 200 463 0.0131
+127.0.0.1 - - [31/Jan/2010 12:07:23] "GET /favicon.ico HTTP/1.1" 404 420 0.0013
+127.0.0.1 - - [31/Jan/2010 12:07:23] "GET /favicon.ico HTTP/1.1" 404 420 0.0019
+127.0.0.1 - - [31/Jan/2010 12:07:34] "GET /search?artist=White+Stripes&title=Seven+Nation+Army HTTP/1.1" 200 3586 1.5141
+127.0.0.1 - - [31/Jan/2010 12:07:34] "GET /search?artist=White+Stripes&title=Seven+Nation+Army HTTP/1.1" 200 3586 1.5149
+127.0.0.1 - - [31/Jan/2010 12:07:36] "GET /cookbookize/TRLQTVF123E859A72D HTTP/1.1" 200 125069 0.2669
+127.0.0.1 - - [31/Jan/2010 12:07:36] "GET /cookbookize/TRLQTVF123E859A72D HTTP/1.1" 200 125069 0.2678
+127.0.0.1 - - [31/Jan/2010 12:07:36] "GET /soundbridge/soundbridge.js HTTP/1.1" 200 931 0.1137
+127.0.0.1 - - [31/Jan/2010 12:07:36] "GET /soundbridge/soundbridge.js HTTP/1.1" 200 931 0.1146
+127.0.0.1 - - [31/Jan/2010 12:07:36] "GET /javascripts/cookbookplayer.js HTTP/1.1" 200 3668 0.1172
+127.0.0.1 - - [31/Jan/2010 12:07:36] "GET /javascripts/cookbookplayer.js HTTP/1.1" 200 3668 0.1182
+127.0.0.1 - - [31/Jan/2010 12:07:36] "GET /javascripts/jquery-1.4.1.min.js HTTP/1.1" 200 70843 0.1216
+127.0.0.1 - - [31/Jan/2010 12:07:36] "GET /javascripts/jquery-1.4.1.min.js HTTP/1.1" 200 70843 0.1222
+127.0.0.1 - - [31/Jan/2010 12:07:36] "GET /soundbridge/soundbridge.swf HTTP/1.1" 200 5569 0.0028
+127.0.0.1 - - [31/Jan/2010 12:07:36] "GET /soundbridge/soundbridge.swf HTTP/1.1" 200 5569 0.0033
+127.0.0.1 - - [31/Jan/2010 12:08:18] "GET /cookbookize/TRLQTVF123E859A72D HTTP/1.1" 200 125069 0.1859
+127.0.0.1 - - [31/Jan/2010 12:08:18] "GET /cookbookize/TRLQTVF123E859A72D HTTP/1.1" 200 125069 0.1866
+127.0.0.1 - - [31/Jan/2010 12:08:18] "GET /soundbridge/soundbridge.js HTTP/1.1" 304 - 0.0035
+127.0.0.1 - - [31/Jan/2010 12:08:18] "GET /soundbridge/soundbridge.js HTTP/1.1" 304 - 0.0042
+127.0.0.1 - - [31/Jan/2010 12:08:18] "GET /javascripts/cookbookplayer.js HTTP/1.1" 304 - 0.0024
+127.0.0.1 - - [31/Jan/2010 12:08:18] "GET /javascripts/cookbookplayer.js HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [31/Jan/2010 12:08:18] "GET /javascripts/jquery-1.4.1.min.js HTTP/1.1" 304 - 0.0019
+127.0.0.1 - - [31/Jan/2010 12:08:18] "GET /javascripts/jquery-1.4.1.min.js HTTP/1.1" 304 - 0.0026
+127.0.0.1 - - [31/Jan/2010 12:08:18] "GET /favicon.ico HTTP/1.1" 404 420 0.0011
+127.0.0.1 - - [31/Jan/2010 12:08:18] "GET /favicon.ico HTTP/1.1" 404 420 0.0019
+"{\"status\": \"ok\", \"results\": [{\"trackID\": \"TRLQTVF123E859A72D\", \"artistID\": \"AR8V1WA1187B9AD9E9\", \"title\": \"01. Seven Nation Army\", \"artist\": \"The White Stripes\"}, {\"trackID\": \"TRQTQHZ123E857DC8E\", \"artistID\": \"AR8V1WA1187B9AD9E9\", \"title\": \"02. You Don't Know What Love Is (You Just Do As You're Told)\", \"artist\": \"The White Stripes\"}, {\"trackID\": \"TRMZNVG123E8593A3E\", \"artistID\": \"AR8V1WA1187B9AD9E9\", \"title\": \"10 Offend In Every Way\", \"artist\": \"The White Stripes\"}, {\"trackID\": \"TRKUVNZ123E857CB20\", \"artistID\": \"AR8V1WA1187B9AD9E9\", \"title\": \"07. You've Got Her In Your Pocket\", \"artist\": \"The White Stripes\"}, {\"trackID\": \"TRXEZIJ123E85850AB\", \"artistID\": \"AR8V1WA1187B9AD9E9\", \"title\": \"03 The Big Three Killed My Baby\", \"artist\": \"The White Stripes\"}, {\"trackID\": \"TRDXTKA123E857C061\", \"artistID\": \"AR8V1WA1187B9AD9E9\", \"title\": \"07 The Union Forever\", \"artist\": \"The White Stripes\"}, {\"trackID\": \"TRVAIPZ123E857CE27\", \"artistID\": \"AR8V1WA1187B9AD9E9\", \"title\": \"07 . Sister, Do You Know My Name-\", \"artist\": \"The White Stripes\"}, {\"trackID\": \"TRMPCPB123E857A793\", \"artistID\": \"AR8V1WA1187B9AD9E9\", \"title\": \"14. It's True That We Love One Another\", \"artist\": \"The White Stripes\"}, {\"trackID\": \"TRMEEMQ123E859D752\", \"artistID\": \"AR8V1WA1187B9AD9E9\", \"title\": \"16 This Protector\", \"artist\": \"The White Stripes\"}, {\"trackID\": \"TRFUSVX123E8587F59\", \"artistID\": \"AR8V1WA1187B9AD9E9\", \"title\": \"07. St. Andrew (This Battle Is In The Air)\", \"artist\": \"The White Stripes\"}, {\"trackID\": \"TRQNMOU123E858DE83\", \"artistID\": \"AR8V1WA1187B9AD9E9\", \"title\": \"06 Little Room\", \"artist\": \"The White Stripes\"}, {\"trackID\": \"TRCEHMB123E858DE4A\", \"artistID\": \"AR8V1WA1187B9AD9E9\", \"title\": \"13. Girl, You Have No Faith In Medicine\", \"artist\": \"The White Stripes\"}, {\"trackID\": \"TRGKFDA123E858879F\", \"artistID\": \"AR8V1WA1187B9AD9E9\", \"title\": \"05. Cold, Cold Night\", \"artist\": \"The White Stripes\"}, {\"trackID\": \"TRRYTIX123E858CBEA\", \"artistID\": \"AR8V1WA1187B9AD9E9\", \"title\": \"13. Effect & Cause\", \"artist\": \"The White Stripes\"}, {\"trackID\": \"TRGHPHW123E858B293\", \"artistID\": \"AR8V1WA1187B9AD9E9\", \"title\": \"06 Wasting My Time\", \"artist\": \"The White Stripes\"}, {\"trackID\": \"TREXCTZ123E858CAE3\", \"artistID\": \"AR8V1WA1187B9AD9E9\", \"title\": \"02. Black Math\", \"artist\": \"The White Stripes\"}, {\"trackID\": \"TRFHOLC123E858F166\", \"artistID\": \"AR8V1WA1187B9AD9E9\", \"title\": \"06. Prickly Thorn, But Sweetly Worn\", \"artist\": \"The White Stripes\"}, {\"trackID\": \"TRUHSHP123E8584E0A\", \"artistID\": \"AR8V1WA1187B9AD9E9\", \"title\": \"02 Stop Breaking Down\", \"artist\": \"The White Stripes\"}, {\"trackID\": \"TRZPFQY123E8585D30\", \"artistID\": \"AR8V1WA1187B9AD9E9\", \"title\": \"11 Do\", \"artist\": \"The White Stripes\"}, {\"trackID\": \"TRBXFFE123E8587881\", \"artistID\": \"AR8V1WA1187B9AD9E9\", \"title\": \"08. Little Cream Soda\", \"artist\": \"The White Stripes\"}]}"
+"{\"status\": \"ok\", \"results\": [{\"trackID\": \"TRALIQE123E859372F\", \"artistID\": \"AREL88S1187B9B1466\", \"title\": \"Europe - The Final Countdown - 01 - The Final Countdown\", \"artist\": \"Europe\"}, {\"trackID\": \"TRKCXFP123E8593A11\", \"artistID\": \"AREL88S1187B9B1466\", \"title\": \"Europe - The Final Countdown - 06 - Cherokee\", \"artist\": \"Europe\"}, {\"trackID\": \"TRDJKRH123E857EAE0\", \"artistID\": \"AREL88S1187B9B1466\", \"title\": \"Europe - The Final Countdown - 03 - Carrie\", \"artist\": \"Europe\"}, {\"trackID\": \"TRAVGMC123E857D0D0\", \"artistID\": \"AREL88S1187B9B1466\", \"title\": \"Europe - The Final Countdown - 09 - On the Loose\", \"artist\": \"Europe\"}, {\"trackID\": \"TRLCCQW123E859188B\", \"artistID\": \"AREL88S1187B9B1466\", \"title\": \"Europe - The Final Countdown - 05 - Ninja\", \"artist\": \"Europe\"}, {\"trackID\": \"TRFRHPL123E858D5FD\", \"artistID\": \"AREL88S1187B9B1466\", \"title\": \"Europe - Th127.0.0.1 - - [31/Jan/2010 12:09:02] "GET /search?artist=Europe&title=Final+Countdown HTTP/1.1" 200 2042 1.4750
+127.0.0.1 - - [31/Jan/2010 12:09:02] "GET /search?artist=Europe&title=Final+Countdown HTTP/1.1" 200 2042 1.4759
+127.0.0.1 - - [31/Jan/2010 12:09:11] "GET /cookbookize/TRALIQE123E859372F HTTP/1.1" 200 151743 6.9794
+127.0.0.1 - - [31/Jan/2010 12:09:11] "GET /cookbookize/TRALIQE123E859372F HTTP/1.1" 200 151743 6.9803
+127.0.0.1 - - [31/Jan/2010 12:10:32] "GET /search?artist=Ben+Folds&title=Army HTTP/1.1" 200 3280 1.5034
+127.0.0.1 - - [31/Jan/2010 12:10:32] "GET /search?artist=Ben+Folds&title=Army HTTP/1.1" 200 3280 1.5048
+127.0.0.1 - - [31/Jan/2010 12:10:33] "GET /cookbookize/TRRGJYY123E85953A0 HTTP/1.1" 200 113014 0.2367
+127.0.0.1 - - [31/Jan/2010 12:10:33] "GET /cookbookize/TRRGJYY123E85953A0 HTTP/1.1" 200 113014 0.2378
+127.0.0.1 - - [31/Jan/2010 12:11:38] "GET /cookbookize/TRRGJYY123E85953A0 HTTP/1.1" 200 113014 0.1799
+127.0.0.1 - - [31/Jan/2010 12:11:38] "GET /cookbookize/TRRGJYY123E85953A0 HTTP/1.1" 200 113014 0.1810
+127.0.0.1 - - [31/Jan/2010 12:11:38] "GET /soundbridge/soundbridge.js HTTP/1.1" 304 - 0.0034
+127.0.0.1 - - [31/Jan/2010 12:11:38] "GET /javascripts/cookbookplayer.js HTTP/1.1" 304 - 0.0021
+127.0.0.1 - - [31/Jan/2010 12:11:38] "GET /soundbridge/soundbridge.js HTTP/1.1" 304 - 0.0045
+127.0.0.1 - - [31/Jan/2010 12:11:38] "GET /javascripts/cookbookplayer.js HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [31/Jan/2010 12:11:38] "GET /javascripts/jquery-1.4.1.min.js HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [31/Jan/2010 12:11:38] "GET /javascripts/jquery-1.4.1.min.js HTTP/1.1" 304 - 0.0017
+127.0.0.1 - - [31/Jan/2010 12:11:38] "GET /favicon.ico HTTP/1.1" 404 420 0.0017
+127.0.0.1 - - [31/Jan/2010 12:11:38] "GET /favicon.ico HTTP/1.1" 404 420 0.0026
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `join': Interrupt
+	from /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+	from /Library/Ruby/Gems/1.8/gems/rack-1.0.1/bin/rackup:176
+	from /usr/bin/rackup:19:in `load'
+	from /usr/bin/rackup:19
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `join': Interrupt
+	from /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+	from /Library/Ruby/Gems/1.8/gems/rack-1.0.1/bin/rackup:176
+	from /usr/bin/rackup:19:in `load'
+	from /usr/bin/rackup:19
