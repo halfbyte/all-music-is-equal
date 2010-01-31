@@ -1,20 +1,34 @@
 !!!
 %html
+  %head
+    %title AMIE - All music is equal: Search results
+    %link{:href => '/stylesheets/screen.css', :rel => 'stylesheet'}
   %body
-    %h1 instant moog cookbook
-    %h2
-      Search for
-      &= params[:artist]
-      and
-      &= params[:title]
-    - if @matches
-      %ul
-        - @matches.each do |result|
-          %li
-            %a{:href => "/cookbookize/#{result['trackID']}"}
-              &= result['artist']
-              \/
-              &= result['title']
-    - else
-      %p
-        No matches found.
+    #page
+      %h1.column.width4.first
+        Search results for
+        %strong
+          &= params[:artist]
+        &nbsp;and
+        %strong
+          &= params[:title]
+      .column.width4.first
+        %h2.column.width1.first
+          This is what we found on 
+          %a{:href => "http://echonest.com"} Echo Nest. 
+          Select one of the tracks to convert it!
+        .column.width3.last
+          - if @matches
+            %ul
+              - @matches.each do |result|
+                %li
+                  %a{:href => "/amiefy/#{result['trackID']}?artist=#{result['artist']}&title=#{result['title']}"}
+                    &= result['artist']
+                    \/
+                    &= result['title']
+          - else
+            %p
+              No matches found.
+          %p
+            %b
+              %a{:href => "/"} > Go back and try a new search.

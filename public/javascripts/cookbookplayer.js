@@ -80,11 +80,11 @@ $(function() {
     $('#playButton').click(function(e) {
       if (playing) {
         s.stop();
-        $(this).html("play");
+        $(this).html("Play");
         playing = false;
       } else {
         s.play();
-        $(this).html("stop");
+        $(this).html("Stop");
         playing = true;
       }
       return false;

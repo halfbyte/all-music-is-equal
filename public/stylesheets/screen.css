@@ -1,0 +1,66 @@
+@import url("/stylesheets/baseline_compress.css");
+
+#page {
+  margin: 2em auto;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h1 strong {
+  background: #222;
+  color: #fff;
+}
+
+h2 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+a, a:visited {
+  color: #c00;
+}
+
+a:hover, a:visited:hover {
+  color: #f00;
+}
+
+p + p {
+  text-indent: 0;
+  margin-top: 1em;
+}
+
+h1.intro {
+  font-size: 108px;
+  letter-spacing: -0.06em;
+  word-spacing: 0.04em;
+  line-height: 90px;
+  text-align: right;
+  margin-top: -3px;
+}
+
+div.intro {
+  margin-top: -6px;
+}
+
+.intro form {
+  background: #222;
+  color: #fff;
+}
+
+input[type=submit] {
+  margin-top: 24px;
+}
+
+.player {
+  font-size: 108px;
+  font-weight: bold;
+  letter-spacing: -0.06em;
+  line-height: 90px;
+  margin-left: -6px;
+}
+
+.player a, .player a:visited {
+  text-decoration: none;
+}

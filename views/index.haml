@@ -1,12 +1,23 @@
 !!!
 %html
+  %head
+    %title AMIE - All music is equal
+    %link{:href => '/stylesheets/screen.css', :rel => 'stylesheet'}
   %body
-    %h1 instant moog cookbook
-    %form{:action => '/search', :method => 'get'}
-      %label
-        Artist
-        %input{:type => 'text', :name => 'artist'}
-      %label
-        Title
-        %input{:type => 'text', :name => 'title'}
-      %input{:type => 'submit', :value => 'Search'}
+    #page
+      %h1.column.width2.first.intro
+        All music
+        %br
+        is equal
+      .column.width2.last.intro
+        %h2 Take any piece of music and turn it into a "music pupil plays church organ, using a slightly stumbling metronome" version!
+        %form{:action => '/search', :method => 'get'}
+          %label
+            Artist
+            %input{:type => 'text', :name => 'artist'}
+          %label
+            Title
+            %input{:type => 'text', :name => 'title'}
+          %input{:type => 'submit', :value => 'Search'}
+        %p.small A Music Hackday experiment by Jan Krutisch and Wolfgang Wopperer.
+        

@@ -1,0 +1,39 @@
+!!!
+%html
+  %head
+    %title AMIE - All music is equal: Player
+    %link{:href => '/stylesheets/screen.css', :rel => 'stylesheet'}
+    %script{:src => '/javascripts/jquery-1.4.1.min.js', :type => 'text/javascript'}
+    %script{:src => '/soundbridge/soundbridge.js', :type => 'text/javascript'}
+    %script{:src => '/javascripts/cookbookplayer.js', :type => 'text/javascript'}
+    :javascript
+      var patternData = #{@patterns.to_json};
+      var beatsData = #{@beats.to_json};
+  %body
+    #page
+      %h1.column.width4.first
+        %strong
+          &= params[:title]
+        &nbsp;is now amiefied!
+      .column.width4.first
+        %h2.column.width1.first Here's the church organ version:
+        .column.width1
+          %p.player
+            %a#playButton{:href => "#"} Play
+          %object#soundbridge{ :height => "30", :align => "middle", :classid => "clsid:d27cdb6e-ae6d-11cf-96b8-444553540000", :width => "200" }
+            %param{ :name => "movie", :value => "/soundbridge/soundbridge.swf" }
+            %param{ :name => "allowScriptAccess", :value => "always" }
+            %param{ :name => "quality", :value => "high" }
+            %param{ :name => "scale", :value => "noscale" }
+            %param{ :name => "salign", :value => "lt" }
+            %param{ :name => "bgcolor", :value => "#ffffff" }
+            %embed{ :name => "soundbridge", :src => "/soundbridge/soundbridge.swf", :pluginspage => "http://www.macromedia.com/go/getflashplayer", :type => "application/x-shockwave-flash", :allowscriptaccess => "always", :height => "30", :align => "middle", :quality => "high", :bgcolor => "#ffffff", :width => "200" }/
+        .column.width2.last
+          %p
+            What you hear are 
+            %a{:href => "http://echonest.com"} Echo Nest 
+            analysis data of the song, converted back into music, roughly harmonized and played through our 
+            %a{:href => "http://github.com/halfbyte/js-synth-experiments"} awesome (almost) pure JavaScript in-browser synthesizer.
+          %p
+            %b
+              %a{:href => "/"} > Go back and amiefy some more music!

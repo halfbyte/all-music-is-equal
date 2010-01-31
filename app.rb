@@ -68,9 +68,9 @@ get '/search' do
   haml :search
 end
 
-get '/cookbookize/:track_id' do
+get '/amiefy/:track_id' do
   @analysis = Echonest.get_analysis(params[:track_id])
   @patterns = Echonest.make_patterns(@analysis['analysis'])
   @beats = Echonest.make_beats(@analysis['analysis'])
-  haml :cookbookize
+  haml :amiefy
 end
